@@ -3,9 +3,9 @@
   "chain": "Shibarium",
   "icon": "shibarium",
   "rpc": [
-    "https://www.shibrpc.com",
-    "https://rpc.shibrpc.com",
-    "https://shib.nownodes.io"
+    "https://rpc.shibarium.shib.io",
+    "https://shib.nownodes.io",
+    "https://rpc.swiftnodes.io/rpc/shibarium?key=${SWIFTNODES_API_KEY}"
   ],
   "faucets": [],
   "nativeCurrency": {

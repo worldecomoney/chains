@@ -1,7 +1,11 @@
 {
   "name": "Sei Network",
   "chain": "Sei",
-  "rpc": ["https://evm-rpc.sei-apis.com", "wss://evm-ws.sei-apis.com"],
+  "rpc": [
+    "https://evm-rpc.sei-apis.com",
+    "wss://evm-ws.sei-apis.com",
+    "https://rpc.swiftnodes.io/rpc/sei?key=${SWIFTNODES_API_KEY}"
+  ],
   "faucets": [],
   "nativeCurrency": {
     "name": "Sei",
@@ -12,11 +16,12 @@
   "shortName": "sei",
   "chainId": 1329,
   "networkId": 1329,
-  "icon": "seiv2",
+  "slip44": 19000118,
+  "icon": "sei",
   "explorers": [
     {
-      "name": "Seitrace",
-      "url": "https://seitrace.com",
+      "name": "Seiscan",
+      "url": "https://seiscan.io",
       "standard": "EIP3091"
     }
   ]
